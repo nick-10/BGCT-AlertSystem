@@ -1,0 +1,228 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 95vh;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Panel Stuff*/
+#left_panel {
+    position: absolute;
+    height: 88vh;
+    width: 38vw;
+    left: 10vw;
+    bottom: 5vh;
+}
+
+#right_panel {
+    position: absolute;
+    height: 88vh;
+    width: 38vw;
+    right: 10vw;
+    bottom: 5vh;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*ALL Blocks*/
+
+.admin_block {
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+
+.block_title {
+    font-size: 15pt;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.block_button {
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    padding: 3px 8px 3px 8px;
+
+    position: absolute;
+    bottom: 8%;
+    left: 40%;
+}
+
+.block_button:hover {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 1.5px solid dodgerblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Left Panel Stuff*/
+
+#search_box {
+    position: relative;
+    margin: 2% 2% 2% 2%;
+    width: 94%;
+    font-size: 14pt;
+}
+
+#block_search_bar {
+    height: 9%;
+    margin-bottom: 4%;
+}
+
+#block_member_zone {
+    height: 41%;
+    margin-bottom: 4%;
+}
+
+#block_alert_status {
+    height: 41%;
+}
+
+.list_box {
+    position: absolute;
+    top: 13%;
+    bottom: 2%;
+    right: 2%;
+    left: 2%;
+    height: auto;
+    width: 96%;
+    border: 1.5px solid lightgray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.member_card {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.member_card:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+/*.ap_row {*/
+    /*width: 100%;*/
+/*}*/
+
+/*.ap_td {*/
+    /*margin-right: 30px;*/
+    /*display: inline;*/
+    /*width: 48%;*/
+/*}*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Alert Progress*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Right Panel Stuff*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Add Member*/
+
+#block_add_member {
+    height: 30%;
+    margin-bottom: 4%;
+}
+
+.add_mem_input {
+    display: block;
+    height: 14%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    font-size: 14pt;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Send Alert*/
+
+#block_send_alert {
+    height: 34%;
+    margin-bottom: 4%;
+}
+
+.sa_room_button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    padding: 3px 3px 3px 3px;
+    border: 1.5px solid lightgray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sa_room_button:hover {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 1.5px solid dodgerblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Mark Completed*/
+
+#block_finish_alert {
+    height: 14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

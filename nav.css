@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar {
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    max-height: 10%;
+}
+
+.nav_button {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 18pt;
+}
+
+.nav_button:hover {
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/*.nav_bar img {*/
+    /*margin-top: 2px;*/
+    /*display: inline-block;*/
+    /*max-height: 20px;*/
+/*}*/
+
+/*.nav_button {*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-size: 18px;*/
+    /*margin-left: 20px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.dropdown {*/
+    /*position: relative;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.shortcuts_nav_button {*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-size: 18px;*/
+    /*margin-left: 20px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.dropdown_button {*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*color: white;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-size: 16px;*/
+/*}*/
+
+/*.dropdown_content {*/
+    /*margin-left: 20px;*/
+    /*display: none;*/
+    /*background-color: red;*/
+    /*position: absolute;*/
+    /*color: darkred;*/
+    /*z-index: 1;*/
+    /*width: 180px;*/
+/*}*/
+
+/*.dropdown:hover .dropdown_content {*/
+    /*display: block;*/
+/*}*/
+
+/*.dropdown_button:hover, .nav_button:hover, .shortcuts_nav_button:hover {*/
+    /*font-weight: bolder;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.dropdown_content ul {*/
+    /*list-style-position: inside;*/
+    /*margin: 0;*/
+    /*padding-left: 3px;*/
+/*}*/
